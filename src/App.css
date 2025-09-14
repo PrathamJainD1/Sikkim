@@ -43,3 +43,57 @@
   line-height: 1.6;
   margin-bottom: 10px;
 }
+/* Navbar styling */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.7); /* semi-transparent for visibility */
+  position: relative;
+  z-index: 1000; /* keeps navbar above intro text */
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  margin: 1rem auto; /* center with space around */
+  max-width: 90%; /* prevent stretching full width */
+}
+
+/* Brand text */
+.brand-text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f5f5f5 !important;
+}
+
+/* Dropdown menus */
+.custom-dropdown .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 0.5rem;
+  z-index: 2000; /* ensures menu stays above all text */
+}
+
+.custom-dropdown .dropdown-item {
+  color: #fff !important;
+  transition: background 0.2s ease-in-out;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #4CAF50; /* green highlight */
+  color: #fff !important;
+  border-radius: 6px;
+}
+
+/* Ensure intro text does not overlap */
+.intro-section {
+  margin-bottom: 4rem; /* creates breathing space for navbar */
+}
+
+/* Responsive fix */
+@media (max-width: 991px) {
+  .custom-navbar {
+    max-width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+  .custom-dropdown .dropdown-menu {
+    position: static; /* stacked for mobile */
+    margin-top: 0.5rem;
+  }
+}
