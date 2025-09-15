@@ -34,9 +34,9 @@ function NavbarComponent() {
             </NavDropdown>
             {/* 360° View Dropdown */}
             <NavDropdown title={t("360° View")} id="view-dropdown">
-              <NavDropdown.Item href="https://www.airpano.com/360photo/Rumtek-Monastery-Sikkim/" target="_blank">{t("Rumtek 360")}</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.airpano.com/360photo/pemayangtse-monastery-sikkim-india/" target="_blank">{t("Pemayangtse 360")}</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.airpano.com/360photo/tashiding-monastery-sikkim-india/" target="_blank">{t("Tashiding 360")}</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.dreamstime.com/photos-images/rumtek-360.html" target="_blank">{t("Rumtek 360")}</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.dreamstime.com/photos-images/pemayangtse-360.html" target="_blank">{t("Pemayangtse 360")}</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.dreamstime.com/photos-images/tashiding-360.html" target="_blank">{t("Tashiding 360")}</NavDropdown.Item>
             </NavDropdown>
             {/* Travel Routes Dropdown */}
             <NavDropdown title={t("Travel Routes")} id="routes-dropdown">
@@ -61,3 +61,4 @@ function NavbarComponent() {
 }
 
 export default NavbarComponent;
+
